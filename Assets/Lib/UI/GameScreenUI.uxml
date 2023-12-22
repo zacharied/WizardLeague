@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="SkillScreenUI" src="project://database/Assets/Lib/UI/SkillScreenUI.uxml?fileID=9197481963319205126&amp;guid=9e611632709da6943bca8fbe0145b0ff&amp;type=3#SkillScreenUI" />
+    <ui:Template name="SpellSlotsUI" src="project://database/Assets/Lib/UI/SpellSlotsUI.uxml?fileID=9197481963319205126&amp;guid=5d92b931eb6d4d94c9826c61a2dea198&amp;type=3#SpellSlotsUI" />
+    <Style src="project://database/Assets/Me/USS/gameScreen.uss?fileID=7433441132597879392&amp;guid=a1142aa20168bfa4f91595676d316e61&amp;type=3#gameScreen" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 2; min-width: 20%; max-width: 20%; flex-direction: column; justify-content: flex-end; align-items: auto; align-self: stretch;">
+        <ui:Instance template="SkillScreenUI" name="SkillScreenUI" style="max-width: 100%; min-width: 100px; flex-grow: 1; justify-content: flex-end; align-self: stretch;" />
+        <ui:Label tabindex="-1" text="RELOADING" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ReloadingLabel" style="font-size: 32px; -unity-font-style: bold;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; flex-shrink: 1; max-height: 25%; max-width: 30%;">
+        <ui:Instance template="SpellSlotsUI" name="SpellSlotsUI" style="flex-grow: 1; flex-basis: initial; min-width: 17%; flex-shrink: 1; flex-direction: column; max-width: 100%; margin-top: 8px; margin-right: 8px; margin-bottom: 8px; margin-left: 8px; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ManaInfo" style="flex-grow: 1; align-self: auto; align-items: flex-end; justify-content: space-between; position: absolute; top: 0; left: 80%; flex-wrap: nowrap; flex-basis: 0;">
+        <Lib.UI.CircularProgressBar progress="30" name="Progress" style="flex-basis: 0; flex-shrink: 0; width: 235px; position: absolute; left: -22%; right: auto; height: 234px; top: 14%;" />
+        <ui:Label tabindex="-1" text="9" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="font-size: 256px; margin-right: 9%;" />
+    </ui:VisualElement>
+</ui:UXML>

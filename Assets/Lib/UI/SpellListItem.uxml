@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+        <GallantGames.UI.AspectRatioPanel aspect-ratio-x="1" aspect-ratio-y="1" name="AspectRatioPanel" picking-mode="Ignore" style="position: relative;">
+            <ui:VisualElement name="SpellIcon" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/Ext/Blink/Art/Icons/Classes/Warrior/Berserker/Berserker13.png?fileID=2800000&amp;guid=4d7635c366a76274c85747592d98d2f5&amp;type=3#Berserker13&apos;); align-items: flex-start; align-self: stretch; justify-content: flex-start; width: initial; height: initial; max-height: none; flex-shrink: 0;" />
+        </GallantGames.UI.AspectRatioPanel>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-shrink: 0; justify-content: center; align-items: flex-end;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="SpellNameLabel" style="font-size: 20px; text-overflow: clip; flex-shrink: 1; align-items: flex-end; justify-content: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

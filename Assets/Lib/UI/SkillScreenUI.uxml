@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:ListView focusable="true" name="ListView" header-title="Spell Queue" fixed-item-height="50" virtualization-method="DynamicHeight" selection-type="None" show-alternating-row-backgrounds="None" style="transition-property: all, ignored; transition-duration: 0s, 0s; transition-timing-function: ease, ease; transition-delay: 0s, 0s;" />
+</ui:UXML>

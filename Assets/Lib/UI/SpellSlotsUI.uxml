@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="SpellSlotButton" src="project://database/Assets/Lib/UI/SpellSlotButton.uxml?fileID=9197481963319205126&amp;guid=959264d593600f941a9fe8700d0d9a66&amp;type=3#SpellSlotButton" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; justify-content: space-between; align-self: auto; align-items: stretch; min-width: 100%; min-height: 100%;">
+        <ui:Instance template="SpellSlotButton" name="SpellSlotButton" style="flex-grow: 1; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px;" />
+        <ui:Instance template="SpellSlotButton" name="SpellSlotButton" style="flex-grow: 1; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px;" />
+        <ui:Instance template="SpellSlotButton" name="SpellSlotButton" style="flex-grow: 1; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px;" />
+    </ui:VisualElement>
+</ui:UXML>

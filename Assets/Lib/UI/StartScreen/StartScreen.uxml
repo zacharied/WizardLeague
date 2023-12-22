@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Vertical" style="flex-grow: 1; justify-content: space-around; background-color: rgb(56, 56, 56);">
+        <ui:VisualElement name="HostChoice" style="flex-grow: 1; flex-direction: row; justify-content: center; align-self: auto;">
+            <ui:RadioButton text="Host" name="HostButton" value="true" style="align-items: flex-end; color: rgb(255, 255, 255);" />
+            <ui:RadioButton text="Client" name="ClientButton" style="align-items: flex-end; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-self: stretch; align-items: center; justify-content: flex-start;">
+            <ui:TextField picking-mode="Ignore" name="IpAddressField" auto-correction="false" multiline="false" hide-mobile-input="false" is-delayed="false" readonly="false" value="127.0.0.1" style="justify-content: space-around; max-width: 39%; flex-grow: 0; align-self: center; align-items: flex-start; flex-shrink: 1; color: rgb(0, 0, 0);" />
+            <ui:Label tabindex="-1" text="Failed to connect!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ErrorNoticeLabel" style="flex-shrink: 1; justify-content: flex-end; align-self: center; align-items: flex-end; -unity-text-align: middle-left; white-space: nowrap; text-overflow: clip; background-color: rgba(255, 83, 74, 0); color: rgb(255, 83, 74); visibility: hidden;" />
+            <ui:Label tabindex="-1" text="Connecting..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="ConnectingNoticeLabel" style="flex-shrink: 1; color: rgb(255, 255, 255); flex-grow: 1; justify-content: flex-start; align-self: center; align-items: stretch; -unity-text-align: lower-left; visibility: hidden;" />
+            <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" style="align-self: center; justify-content: flex-start; align-items: flex-start; flex-shrink: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

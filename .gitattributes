@@ -1,0 +1,3 @@
+# Declare unity data files that will always have LF line endings on checkout.
+[core]
+autocrlf=input

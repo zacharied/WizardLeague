@@ -1,0 +1,7 @@
+.connectedPlayerBg {
+    background-color: rgb(0, 161, 14);
+}
+
+.unconnectedPlayerBg {
+    background-color: rgb(139, 17, 0);
+}
